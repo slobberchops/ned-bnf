@@ -1,0 +1,10 @@
+// Minimal BNF Grammar for Dutch
+// Handles: "ik ren"
+
+<sentence> ::= <subject> <verb>
+
+<subject> ::= <pronoun>
+
+<pronoun> ::= PRONOUN  // Personal pronouns: ik, jij, hij, zij, wij, jullie, zij
+
+<verb> ::= VERB  // Dutch verbs (infinitive): rennen, lopen, zien, werken, spelen, etc.
