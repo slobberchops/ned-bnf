@@ -5,5 +5,10 @@
         "hooks": []
       }
     ]
+  },
+  "permissions": {
+    "urlPatterns": [
+      "https://e-ans.ivdnt.org/**"
+    ]
   }
 }
