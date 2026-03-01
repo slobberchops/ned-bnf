@@ -1,7 +1,12 @@
 // Minimal BNF Grammar for Dutch
 // Handles: "ik ren", "ik zie je", "ik zie het huis", "het huis staat"
+// Questions: "waar ligt het huis"
 
-<sentence> ::= <subject> <verb> [ <object> ]
+<sentence> ::= <declarative> | <interrogative>
+
+<declarative> ::= <subject> <verb> [ <object> ]
+
+<interrogative> ::= <interrogative-adverb> <verb> <subject> [ <object> ]
 
 <subject> ::= <personal-pronoun> | <noun-phrase>
 
@@ -9,17 +14,23 @@
 
 <noun-phrase> ::= <article> <noun>
 
-// Personal pronouns (subject): ik, jij, hij, zij, wij, jullie, zij
-<personal-pronoun> ::= PERSONAL_PRONOUN
+// Personal pronouns (subject) - exhaustive
+<personal-pronoun> ::= "ik" | "jij" | "je" | "u" | "hij" | "zij" | "ze"
+                     | "het" | "wij" | "we" | "jullie"
 
-// Object pronouns: me, je, hem, haar, ons, jullie, hen
-<object-pronoun> ::= OBJECT_PRONOUN
+// Object pronouns - exhaustive
+<object-pronoun> ::= "mij" | "me" | "jou" | "je" | "u" | "hem" | "'m"
+                   | "haar" | "d'r" | "het" | "'t" | "ons" | "jullie"
+                   | "hen" | "hun" | "ze"
 
-// Definite articles: de, het
-<article> ::= ARTICLE
+// Articles - exhaustive (definite: de, het; indefinite: een)
+<article> ::= "de" | "het" | "een"
 
 // Nouns: huis, tafel, boek, straat, auto
 <noun> ::= NOUN
 
 // Dutch verbs (infinitive): rennen, lopen, zien, werken, spelen
 <verb> ::= VERB
+
+// Interrogative adverbs: waar (where), wanneer (when), hoe (how)
+<interrogative-adverb> ::= INTERROGATIVE_ADVERB
