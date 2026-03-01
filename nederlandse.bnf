@@ -6,13 +6,17 @@
 
 <declarative> ::= <subject> <verb> [ <object> ]
 
-<interrogative> ::= <interrogative-adverb> <verb> <subject> [ <object> ]
+<interrogative> ::= <interrogative-word> <verb> <subject> [ <object> ]
+
+<interrogative-word> ::= <interrogative-adverb> | <interrogative-pronoun>
 
 <subject> ::= <personal-pronoun> | <noun-phrase>
 
 <object> ::= <object-pronoun> | <noun-phrase>
 
-<noun-phrase> ::= <article> <noun>
+<noun-phrase> ::= <determiner> <noun>
+
+<determiner> ::= <article> | <possessive-pronoun>
 
 // Personal pronouns (subject) - exhaustive
 <personal-pronoun> ::= "ik" | "jij" | "je" | "u" | "hij" | "zij" | "ze"
@@ -34,3 +38,11 @@
 
 // Interrogative adverbs: waar (where), wanneer (when), hoe (how)
 <interrogative-adverb> ::= INTERROGATIVE_ADVERB
+
+// Interrogative pronouns - exhaustive
+<interrogative-pronoun> ::= "wat" | "wie" | "welk" | "welke"
+
+// Possessive pronouns - exhaustive
+<possessive-pronoun> ::= "mijn" | "m'n" | "jouw" | "je" | "uw" | "zijn"
+                       | "z'n" | "haar" | "d'r" | "ons" | "onze"
+                       | "jullie" | "hun"
