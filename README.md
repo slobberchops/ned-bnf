@@ -92,6 +92,12 @@ object is optional.
 **Object**: Who/what receives the action.
 - Examples: "je" in "ik zie je", "het huis" in "ik zie het huis"
 
+**Pronoun**: Word that replaces a noun or noun phrase.
+- Personal pronouns: "ik" (I), "jij" (you), "hij" (he), "zij" (she)
+- Object pronouns: "mij" (me), "jou" (you), "hem" (him), "haar" (her)
+- Possessive pronouns: "mijn" (my), "jouw" (your), "zijn" (his), "haar" (her)
+- Interrogative pronouns: "wat" (what), "wie" (who)
+
 **Determiner**: Word that specifies which/whose noun (articles, possessives).
 - Examples: "de", "het", "een" (articles); "mijn", "uw", "zijn" (possessives)
 
