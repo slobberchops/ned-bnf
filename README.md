@@ -86,8 +86,12 @@ object is optional.
 
 ### Sentence Components
 
-**Subject**: Who/what does the action or is being described.
-- Examples: "ik" in "ik ren", "het huis" in "het huis staat"
+**Adverb**: Word that modifies a verb, adjective, or another adverb, describing how, when,
+where, or to what extent.
+- Interrogative adverbs: "waar" (where), "wanneer" (when), "hoe" (how), "waarom" (why)
+
+**Determiner**: Word that specifies which/whose noun (articles, possessives).
+- Examples: "de", "het", "een" (articles); "mijn", "uw", "zijn" (possessives)
 
 **Object**: Who/what receives the action.
 - Examples: "je" in "ik zie je", "het huis" in "ik zie het huis"
@@ -98,9 +102,5 @@ object is optional.
 - Possessive pronouns: "mijn" (my), "jouw" (your), "zijn" (his), "haar" (her)
 - Interrogative pronouns: "wat" (what), "wie" (who)
 
-**Determiner**: Word that specifies which/whose noun (articles, possessives).
-- Examples: "de", "het", "een" (articles); "mijn", "uw", "zijn" (possessives)
-
-**Adverb**: Word that modifies a verb, adjective, or another adverb, describing how, when,
-where, or to what extent.
-- Interrogative adverbs: "waar" (where), "wanneer" (when), "hoe" (how), "waarom" (why)
+**Subject**: Who/what does the action or is being described.
+- Examples: "ik" in "ik ren", "het huis" in "het huis staat"
