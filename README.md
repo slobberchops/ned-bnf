@@ -46,9 +46,10 @@ basic communication.
 
 ## Understanding the Grammar Rules (BNF Notation)
 
-The grammar rules in this project are written in **BNF** (Backus-Naur Form), a way of
-describing language structure using simple symbols. Think of it as a recipe that shows how to
-build valid Dutch sentences.
+The grammar rules in this project are written in **BNF** (Backus-Naur Form), a notation
+originally made for computer nerds to precisely describe programming languages. But it uses
+simple symbols, so maybe normal people can read it too. Think of it as a recipe that shows how
+to build valid Dutch sentences.
 
 **How to read the rules:**
 
