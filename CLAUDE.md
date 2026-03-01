@@ -25,3 +25,5 @@ This project defines a minimal BNF (Backus-Naur Form) syntax for the Dutch langu
 - Non-terminal names (left-hand side) are written in English
 - Terminal values (right-hand side literals) are in Dutch
 - Lexical categories (word classes) are represented by uppercase markers rather than enumerating all words
+- Long comments (descriptive, with examples) go above the rule, not inline
+- Limit lines to 80 characters

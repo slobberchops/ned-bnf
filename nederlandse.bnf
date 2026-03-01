@@ -1,10 +1,25 @@
 // Minimal BNF Grammar for Dutch
-// Handles: "ik ren"
+// Handles: "ik ren", "ik zie je", "ik zie het huis", "het huis staat"
 
-<sentence> ::= <subject> <verb>
+<sentence> ::= <subject> <verb> [ <object> ]
 
-<subject> ::= <pronoun>
+<subject> ::= <personal-pronoun> | <noun-phrase>
 
-<pronoun> ::= PRONOUN  // Personal pronouns: ik, jij, hij, zij, wij, jullie, zij
+<object> ::= <object-pronoun> | <noun-phrase>
 
-<verb> ::= VERB  // Dutch verbs (infinitive): rennen, lopen, zien, werken, spelen, etc.
+<noun-phrase> ::= <article> <noun>
+
+// Personal pronouns (subject): ik, jij, hij, zij, wij, jullie, zij
+<personal-pronoun> ::= PERSONAL_PRONOUN
+
+// Object pronouns: me, je, hem, haar, ons, jullie, hen
+<object-pronoun> ::= OBJECT_PRONOUN
+
+// Definite articles: de, het
+<article> ::= ARTICLE
+
+// Nouns: huis, tafel, boek, straat, auto
+<noun> ::= NOUN
+
+// Dutch verbs (infinitive): rennen, lopen, zien, werken, spelen
+<verb> ::= VERB
