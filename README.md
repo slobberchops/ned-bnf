@@ -1,4 +1,4 @@
-# NES-BNF
+# NED-BNF
 
 Minimal BNF grammar for Dutch language.
 
