@@ -16,11 +16,11 @@ BNF grammar for A1-level Dutch (CEFR beginner) - the grammar needed for basic co
 - Declarative and interrogative sentences (subject-verb-object, question words)
 - Pronouns: personal, object, possessive, interrogative
 - Articles: de, het, een
+- Negation: niet (negative adverb), geen (negative article)
 
 **Still needed:**
 - Verb conjugations (present tense)
 - Adjectives and adverbs
-- Negation (niet, geen)
 - Imperatives
 - Numbers and time
 - Prepositions

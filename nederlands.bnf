@@ -1,10 +1,11 @@
 // Minimal BNF Grammar for Dutch
 // Handles: "ik ren", "ik zie je", "ik zie het huis", "het huis staat"
+// Negation: "ik ren niet", "ik zie geen huis"
 // Questions: "waar ligt het huis"
 
 <sentence> ::= <declarative> | <interrogative>
 
-<declarative> ::= <subject> <verb> [ <object> ]
+<declarative> ::= <subject> <verb> [ <object> ] [ <negative-adverb> ]
 
 <interrogative> ::= <interrogative-word> <verb> <subject> [ <object> ]
 
@@ -16,7 +17,7 @@
 
 <noun-phrase> ::= <determiner> <noun>
 
-<determiner> ::= <article> | <possessive-pronoun>
+<determiner> ::= <article> | <possessive-pronoun> | <negative-article>
 
 // Personal pronouns (subject) - exhaustive
 <personal-pronoun> ::= "ik" | "jij" | "je" | "u" | "hij" | "zij" | "ze"
@@ -30,11 +31,17 @@
 // Articles - exhaustive (definite: de, het; indefinite: een)
 <article> ::= "de" | "het" | "een"
 
+// Negative article - exhaustive
+<negative-article> ::= "geen"
+
 // Nouns: huis, tafel, boek, straat, auto
 <noun> ::= NOUN
 
 // Dutch verbs (infinitive): rennen, lopen, zien, werken, spelen
 <verb> ::= VERB
+
+// Negative adverb - exhaustive
+<negative-adverb> ::= "niet"
 
 // Interrogative adverbs: waar (where), wanneer (when), hoe (how)
 <interrogative-adverb> ::= INTERROGATIVE_ADVERB
