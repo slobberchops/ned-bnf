@@ -4,7 +4,9 @@ Minimal BNF grammar for Dutch language.
 
 ## About
 
-This project defines essential Dutch grammar rules using standard BNF (Backus-Naur Form) notation. **The goal is to cover A1-level Dutch** (CEFR beginner level) - the grammar needed for basic communication.
+This project defines essential Dutch grammar rules using standard BNF (Backus-Naur Form)
+notation. **The goal is to cover A1-level Dutch** (CEFR beginner level) - the grammar needed for
+basic communication.
 
 **A1 Level Target:**
 - Simple present tense statements and questions
@@ -44,11 +46,14 @@ This project defines essential Dutch grammar rules using standard BNF (Backus-Na
 
 ## Understanding the Grammar Rules (BNF Notation)
 
-The grammar rules in this project are written in **BNF** (Backus-Naur Form), a way of describing language structure using simple symbols. Think of it as a recipe that shows how to build valid Dutch sentences.
+The grammar rules in this project are written in **BNF** (Backus-Naur Form), a way of
+describing language structure using simple symbols. Think of it as a recipe that shows how to
+build valid Dutch sentences.
 
 **How to read the rules:**
 
-- `<sentence>` - A grammar concept (like "sentence" or "subject") - written in angle brackets and English
+- `<sentence>` - A grammar concept (like "sentence" or "subject") - written in angle brackets
+  and English
 - `::=` - Means "is made from" or "consists of"
 - `"ik"` - An actual Dutch word that appears in quotes
 - `|` - Means "or" - shows alternative options
@@ -69,7 +74,8 @@ The grammar rules in this project are written in **BNF** (Backus-Naur Form), a w
 <verb> ::= VERB
 ```
 
-This means "ik ren" (I run) is valid, and "ik zie je" (I see you) is also valid because the object is optional.
+This means "ik ren" (I run) is valid, and "ik zie je" (I see you) is also valid because the
+object is optional.
 
 **Learn more:** [Backus-Naur Form on Wikipedia](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form)
 
@@ -99,5 +105,6 @@ This means "ik ren" (I run) is valid, and "ik zie je" (I see you) is also valid 
 **Determiner**: Word that specifies which/whose noun (articles, possessives).
 - Examples: "de", "het", "een" (articles); "mijn", "uw", "zijn" (possessives)
 
-**Adverb**: Word that modifies a verb, adjective, or another adverb, describing how, when, where, or to what extent.
+**Adverb**: Word that modifies a verb, adjective, or another adverb, describing how, when,
+where, or to what extent.
 - Interrogative adverbs: "waar" (where), "wanneer" (when), "hoe" (how), "waarom" (why)
