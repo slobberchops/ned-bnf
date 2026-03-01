@@ -2,6 +2,12 @@
 
 Minimal BNF grammar for Dutch language.
 
+---
+
+# [`nederlands.bnf`](./nederlands.bnf)
+
+---
+
 ## About
 
 BNF grammar for A1-level Dutch (CEFR beginner) - the grammar needed for basic communication.

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/nes-bnf.iml" filepath="$PROJECT_DIR$/nes-bnf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ned-bnf.iml" filepath="$PROJECT_DIR$/ned-bnf.iml" />
     </modules>
   </component>
 </project>
